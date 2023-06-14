@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.patrity.Generator.TOTAL_LAYERS;
-import static com.patrity.Main.TOTAL_TO_GENERATE;
+import static com.patrity.NFTConfig.TOTAL_TO_GENERATE;
+import static com.patrity.NFTConfig.TOTAL_LAYERS;
 
 @Log
 public class RarityCalc {
