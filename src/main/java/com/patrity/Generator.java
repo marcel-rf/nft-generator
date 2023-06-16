@@ -98,7 +98,7 @@ public class Generator {
                 }
 
             } else {
-                return fileName.startsWith(rarityChar) || type == AttributeType.BACKGROUND_COLOR;
+                return fileName.startsWith(rarityChar) || type == AttributeType.BACKGROUND_COLOR || type == AttributeType.BACKGROUND;
             }
         }).collect(Collectors.toList());
 
